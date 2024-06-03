@@ -27,7 +27,7 @@ $booleen = true;
         </thead>
         <tbody>
             <tr>
-                <td><?php echo gettype($text) ?></td>
+                <td><?= gettype($text) ?></td>
                 <td>Text</td>
                 <td><?php echo ($text) ?></td>
             </tr>
