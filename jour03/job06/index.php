@@ -1,6 +1,6 @@
 <?php
 
-function leetSpeaking($str)
+function leetSpeaking(string $str): string
 {
     $leetMapping = [
         'A' => '4', 'a' => '4',
